@@ -8,21 +8,21 @@
  - npm start
 
 ### Endpoints availables
-### GET Method
+#### GET Method
 - http://localhost:3000/tasks  (List all tasks)
 - http://localhost:3000/tasks/:id (Get task by id)
 - http://localhost:3000/users (List all users)
 - http://localhost:3000/users/:id (Get user by id)
  
-### POST Method
+#### POST Method
 - http://localhost:3000/tasks (Creates task)
 - http://localhost:3000/users (Creates user)
 
-### DELETE Method
+#### DELETE Method
 - http://localhost:3000/tasks/:id (Remove task)
 - http://localhost:3000/users/:id (Remove user)
 
-### PUT Method
+#### PUT Method
 - http://localhost:3000/tasks/:id (Update task)
 - http://localhost:3000/users/:id (Update user)
 
