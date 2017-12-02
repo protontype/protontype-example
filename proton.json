@@ -7,7 +7,7 @@
     "synchronize": true,
     "logging": false,
     "entities": [
-      "./dist/src/models/**/*.js"
+      "./dist/models/**/*.js"
     ]
   },
   "defaultRoutes": true,
@@ -15,10 +15,6 @@
     "origin": ["*"],
     "methods": ["GET", "POST", "OPTIONS", "PUT", "PATCH", "DELETE"],
     "allowedHeaders": ["Content-Type", "Authorization"]
-  },
-  "jwtSecret": "Pr0t0nT1p3",
-  "jwtSession": {
-    "session": false
   },
   "https": {
     "enabled": false,

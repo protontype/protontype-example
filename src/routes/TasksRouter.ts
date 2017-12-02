@@ -1,4 +1,4 @@
-import { RouterClass, TypeORMCrudRouter } from 'protontype';
+import { RouterClass, TypeORMCrudRouter, BodyParserMiddleware } from 'protontype';
 
 import { TasksModel } from '../models/TasksModel';
 

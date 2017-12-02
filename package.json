@@ -1,6 +1,6 @@
 {
   "name": "protontype-typeorm-sample",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "jwt-simple": "^0.4.1",
     "passport": "^0.3.2",
     "passport-jwt": "^2.0.0",
-    "protontype": "^2.0.0-rc.3",
+    "protontype": "^2.0.0-rc.4",
     "sqlite": "^2.9.0"
   },
   "devDependencies": {
