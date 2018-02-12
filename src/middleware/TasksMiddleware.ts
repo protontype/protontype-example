@@ -2,9 +2,8 @@ import { ProtonMiddleware, Middleware, MiddlewareFunctionParams } from "protonty
 
 export class TasksMiddleware extends ProtonMiddleware {
 
-    @Middleware()
+    @Middleware(true)
     sayHello(params: MiddlewareFunctionParams) {
         console.log("Hello!");
-        params.next();
     }
 }

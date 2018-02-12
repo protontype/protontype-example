@@ -6,6 +6,6 @@ import { ProtonApplication } from 'protontype';
  *
  */
 new ProtonApplication()
-    .addRouter(new TasksRouter())
-    .addRouter(new UsersRouter())
-    .bootstrap();
+    .addRouterAs(TasksRouter)
+    .addRouterAs(UsersRouter)
+    .start();
