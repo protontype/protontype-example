@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/Main.js",
-    "legacy-typings": "typings install"
+    "start": "node dist/Main.js"
   },
   "author": "Humberto Machado",
   "license": "ISC",
