@@ -1,6 +1,6 @@
 {
   "name": "protontype-typeorm-sample",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.0.39",
-    "protontype": "^2.3.2",
+    "protontype": "^2.3.3",
     "sqlite": "^2.9.0"
   },
   "devDependencies": {
