@@ -1,4 +1,4 @@
-# [Protontype](https://github.com/protontype/protontype) with [TypeORM](http://typeorm.io/#/) Sample (Default ORM)
+# [Protontype](https://github.com/protontype/protontype) with [TypeORM](http://typeorm.io/#/) Example (Default ORM)
 
 ## Run example
  - open terminal
