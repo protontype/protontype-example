@@ -1,6 +1,6 @@
-import { ProtonMiddleware, Middleware, MiddlewareFunctionParams } from "protontype";
+import { BaseMiddleware, Middleware, MiddlewareFunctionParams } from "protontype";
 
-export class TasksMiddleware extends ProtonMiddleware {
+export class TasksMiddleware extends BaseMiddleware {
 
     @Middleware(true)
     sayHello(params: MiddlewareFunctionParams) {

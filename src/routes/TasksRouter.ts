@@ -1,4 +1,4 @@
-import { RouterClass, TypeORMCrudRouter, BodyParserMiddleware } from 'protontype';
+import { RouterClass, CrudRouter, BodyParserMiddleware } from 'protontype';
 
 import { TasksModel } from '../models/TasksModel';
 import { TasksMiddleware } from '../middleware/TasksMiddleware';
@@ -12,6 +12,6 @@ import { TasksMiddleware } from '../middleware/TasksMiddleware';
     model: TasksModel,
     middlewares: [new TasksMiddleware()]
 })
-export class TasksRouter extends TypeORMCrudRouter {
+export class TasksRouter extends CrudRouter {
 
 }
